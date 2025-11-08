@@ -6,7 +6,7 @@
 
 <img width="1024" height="608" alt="image" src="https://github.com/user-attachments/assets/03c179de-7647-44a0-8654-4d287ae32e22" />
 
-The dataset used in this study was sourced from the [CRISPRoffT website](https://rth.dk/resources/crispr/), containing guide RNA sequences, their respective DNA targets, and PAM motifs labeled as either **ON-target** (successful cut) or **OFF-target** (unintended cut).
+The dataset used in this study was sourced from the [CRISPRoffT website]([https://rth.dk/resources/crispr/](https://ccsm.uth.edu/CRISPRoffT/)), containing guide RNA sequences, their respective DNA targets, and PAM motifs labeled as either **ON-target** (successful cut) or **OFF-target** (unintended cut).
 
 ---
 
@@ -18,7 +18,7 @@ To compare the performance of different deep learning models — CNN and LSTM �
 
 ## 📂 Dataset Description
 
-* **Source:** [CRISPRoffT Dataset](https://rth.dk/resources/crispr/)
+* **Source:** [CRISPRoffT Dataset]([https://rth.dk/resources/crispr/](https://ccsm.uth.edu/CRISPRoffT/))
 * **Attributes:**
 
   * `Guide_sequence` – The gRNA sequence.
@@ -33,6 +33,8 @@ During preprocessing, sequences were validated for correct nucleotide compositio
 ## ⚙️ Pipeline Workflow
 
 The entire CRISPRight system is structured into a modular pipeline as implemented in **`CRISPRight.py`**.
+
+![2f1c97230398300e56142ba825a5b8b91e26087f](https://github.com/user-attachments/assets/564ea7e3-7956-4401-abea-a6e57bb4c5b6)
 
 ### 1. **Dataset Loading**
 
@@ -160,7 +162,7 @@ The final comparison across all four models is summarized both numerically and v
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/CRISPRight.git
+git clone https://github.com/HemantBatra873/CRISPRight.git
 cd CRISPRight
 
 # Run the main pipeline
